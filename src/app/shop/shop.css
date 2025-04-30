@@ -305,3 +305,154 @@
   opacity: 0.7;
   cursor: not-allowed;
 }
+
+
+
+/* ======= Responsive Layout ======= */
+@media (max-width: 1024px) {
+  .shop-heading {
+    font-size: 42px;
+  }
+
+  .cards {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    font-size: 1.8rem;
+    padding: 20px;
+  }
+
+  .card-content {
+    padding: 30px;
+  }
+
+  .company-name {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+
+  .description {
+    margin-top: 30px;
+  }
+
+  .backs-to-home-container {
+    top: 90px;
+    right: 30px;
+  }
+
+  .booking-form-container {
+    padding: 1.5rem;
+    width: 95%;
+  }
+
+  .close-btn {
+    font-size: 2rem;
+    top: 20px;
+    right: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .shop-container {
+    padding: 30px 15px;
+  }
+
+  .shop-heading {
+    font-size: 36px;
+  }
+
+  .cards-grid {
+    grid-template-columns: 1fr;
+    gap: 40px;
+    justify-items: center;
+  }
+
+  .cards {
+    width: 90%;
+    font-size: 1.6rem;
+  }
+
+  .card-content {
+    padding: 25px;
+  }
+
+  .company-name {
+    font-size: 20px;
+  }
+
+  .description {
+    font-size: 15px;
+  }
+
+  .price {
+    font-size: 18px;
+  }
+
+  .buy-now-btn {
+    font-size: 14px;
+    padding: 10px 18px;
+  }
+
+  .backs-to-home-button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+
+  .backs-to-home-container {
+    top: 80px;
+    right: 20px;
+  }
+
+  .form-row {
+    flex-direction: column;
+  }
+
+  .submit-btn {
+    padding: 0.6rem 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .shop-heading {
+    font-size: 28px;
+  }
+
+  .cards {
+    padding: 15px;
+    font-size: 1.4rem;
+  }
+
+  .company-name {
+    font-size: 18px;
+  }
+
+  .description {
+    font-size: 14px;
+  }
+
+  .price {
+    font-size: 16px;
+  }
+
+  .buy-now-btn {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .backs-to-home-button {
+    font-size: 13px;
+    padding: 8px 16px;
+  }
+
+  .card-content {
+    padding: 20px;
+  }
+
+  .booking-form-container {
+    padding: 1rem;
+  }
+
+  .close-btn {
+    font-size: 2rem;
+  }
+}
