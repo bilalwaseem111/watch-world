@@ -724,3 +724,108 @@ body {
 
 
 
+/* ========== Responsive Design ========== */
+@media (max-width: 1200px) {
+  .navbar {
+    padding: 20px 30px;
+  }
+
+  .logo {
+    font-size: 30px;
+  }
+
+  .nav-links {
+    gap: 20px;
+  }
+
+  .animated-heading {
+    font-size: 72px;
+  }
+
+  .card {
+    width: 200px;
+    height: auto;
+  }
+
+  .watch-image {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 20px;
+  }
+
+  .nav-links {
+    flex-direction: column;
+    width: 100%;
+    gap: 15px;
+    margin-top: 20px;
+  }
+
+  .nav-links li a {
+    width: 100%;
+    text-align: center;
+  }
+
+  .animated-heading {
+    font-size: 48px;
+  }
+
+  .quotation {
+    font-size: 22px;
+  }
+
+  .featured-grid, .features-grid {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .card {
+    width: 90%;
+    border-radius: 30px;
+  }
+
+  .watch-image {
+    width: 180px;
+    height: 180px;
+  }
+
+  .content-section {
+    padding: 0 20px;
+  }
+
+  .features-heading {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 480px) {
+  .animated-heading {
+    font-size: 36px;
+  }
+
+  .logo {
+    font-size: 24px;
+  }
+
+  .quotation {
+    font-size: 18px;
+  }
+
+  .card {
+    font-size: 1.2rem;
+  }
+
+  .watch-image {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+
+
