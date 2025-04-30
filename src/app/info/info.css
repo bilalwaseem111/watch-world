@@ -195,5 +195,109 @@
     background: linear-gradient(145deg, #00ffcc, #00cc88);
     transform: scale(1.1);
   }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ========== Responsive Design Enhancements ========== */
+
+@media (max-width: 1024px) {
+  .info-heading,
+  .collaborations-heading {
+    font-size: 2.5rem;
+  }
+
+  .branches-heading {
+    font-size: 2rem;
+  }
+
+  .collaborations-description {
+    font-size: 1.1rem;
+  }
+
+  .branch-card h3,
+  .collaboration-card h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .info-main {
+    padding: 2rem 1rem;
+  }
+
+  .info-heading,
+  .collaborations-heading {
+    font-size: 2rem;
+  }
+
+  .info-description,
+  .collaborations-description {
+    font-size: 1rem;
+  }
+
+  .branches-grid,
+  .collaborations-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .back-to-home-container {
+    top: 100px;
+    right: 20px;
+  }
+
+  .back-to-home-button {
+    padding: 12px 20px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 480px) {
+  .info-heading,
+  .branches-heading,
+  .collaborations-heading {
+    font-size: 1.8rem;
+  }
+
+  .branch-card,
+  .collaboration-card {
+    padding: 20px;
+  }
+
+  .branch-card h3,
+  .collaboration-card h3 {
+    font-size: 1.4rem;
+  }
+
+  .branch-card p,
+  .collaboration-card p {
+    font-size: 0.95rem;
+  }
+
+  .info-description,
+  .collaborations-description {
+    font-size: 0.95rem;
+  }
+
+  .back-to-home-container {
+    top: 80px;
+    right: 10px;
+  }
+
+  .back-to-home-button {
+    padding: 10px 16px;
+    font-size: 13px;
+  }
+}
+
   
  
