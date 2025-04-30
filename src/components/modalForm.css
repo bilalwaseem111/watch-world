@@ -1,0 +1,75 @@
+/* components/modalForm.css */
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal-container {
+    background: black;
+    color: white;
+    border-radius: 8px;
+    padding: 20px;
+    width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  }
+  
+  .modal-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .close-btn {
+    background: transparent;
+    color: lightgreen;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+  }
+  
+  .modal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .modal-form label {
+    font-size: 16px;
+  }
+  
+  .modal-form input {
+    padding: 10px;
+    font-size: 14px;
+    border-radius: 4px;
+    border: 2px solid lightgreen;
+  }
+  
+  .submit-btn {
+    padding: 10px;
+    font-size: 16px;
+    background: lightgreen;
+    color: black;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .submit-btn:hover {
+    background: yellow;
+  }
+  
+  .submit-btn:active {
+    background: yellow;
+    transform: scale(0.98);
+  }
+  
