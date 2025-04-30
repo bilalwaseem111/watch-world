@@ -6,7 +6,7 @@ export default function Footer() {
     <footer className="footer">
       <div className="social-media">
         <a
-          href="https://facebook.com"
+          href="https://www.facebook.com/share/156R4QStxtw/?mibextid=qi2Omg"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
@@ -24,7 +24,7 @@ export default function Footer() {
           <FaTwitter />
         </a>
         <a
-          href="https://instagram.com"
+          href="https://www.instagram.com/bilalwaseem099?igsh=dTM0Z2Z5N2szdHNq"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
@@ -33,7 +33,7 @@ export default function Footer() {
           <FaInstagram />
         </a>
         <a
-          href="https://linkedin.com"
+          href="www.linkedin.com/in/bilal-waseem-b44006338"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
@@ -42,7 +42,7 @@ export default function Footer() {
           <FaLinkedinIn />
         </a>
         <a
-          href="https://github.com"
+          href="https://github.com/bilalwaseem111"
           target="_blank"
           rel="noopener noreferrer"
           className="social-icon"
